@@ -8,6 +8,7 @@ public static void main(String[] args) {
 	ll.add(5);
 	ll.add(6);
 	ll.add(7);
-	System.out.println(ll);
+	
+	ll.stream().forEach(x->System.out.println(x));
 }
 }

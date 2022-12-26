@@ -9,6 +9,6 @@ public class AraryListDemo {
 		al.add("Pritam");
 		al.add("Kshitija");
 		al.add("omkar");
-		System.out.println(al);
+		al.stream().forEach(y->System.out.println(y));
 	}
 }
